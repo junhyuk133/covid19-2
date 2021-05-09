@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.at_time {
+  font-size: 25px;
+  font-weight: 700;
+  color: #192a56;
+  text-align: center;
+}
+
+.corona {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.total__corona,
+.new__corona {
+  display: flex;
+  text-align: center;
+  border: 1px solid;
+}
+
+.new__corona {
+  margin: 0px auto;
+  margin-bottom: 40px;
+}
+.total__corona {
+  margin: 40px;
+}
+
+.total_case,
+.case_per_1m,
+.total_death,
+.death_per_1m,
+.total_recovered {
+  border-right: 1px solid black;
+}
+
+.total_casebox {
+  width: 100%;
+  padding: 10px 40px;
+  border-top: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.box_name {
+  color: black;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.active_case,
+.new_case,
+.new_death,
+.erious_critical {
+  border-right: 1px solid black;
+}
+
+.new_casebox {
+  width: 100%;
+  padding: 10px 40px;
+  border-top: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.corona_stat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.corona_conutries,
+.corona_case {
+  padding: 10px 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-left: 1px solid black;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+  width: 25%;
+}
+
+.corona_conutries {
+  background: #dcdde1;
+  color: black;
+}
+
+@media all and (max-width: 768px) {
+  .corona {
+    flex-direction: row;
+  }
+
+  .total__corona {
+    flex-direction: column;
+  }
+
+  .new__corona {
+    flex-direction: column;
+  }
+
+  .corona_stat {
+    flex-direction: column;
+    border-right: 1px solid black;
+    width: 70%;
+  }
+
+  .corona_conutries,
+  .corona_case {
+    width: 100%;
+  }
+
+  .total_casebox,
+  .new_casebox {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .total_case,
+  .case_per_1m,
+  .total_death,
+  .death_per_1m,
+  .total_recovered,
+  .active_case,
+  .new_case,
+  .new_death,
+  .erious_critical {
+    border-right: none;
+  }
+  
+}
+
+  
+  
+
+li{list-style: none;}
+a{text-decoration: none;}
+
+
+.wa{width: 1170px; margin: 0 auto;}
+
+
+header{height: 0; background-color: #; border: 1px solid #;
+position: fixed; width: 100%; z-index: 9999; top: 0; left: 0;}
+h1{color: black; line-height: 75px; float: left: ;}.menu{float: left: ;}
+.menu{float: left: ;}
+.menu li{float: left: ;}
+.menu a{line-height: 50px; color: black; padding: 0 15px; display: block;}
+
+
+
+.logo {
+    font-size: 25;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 4rem;
+  }
+  
+  .logo span {
+    font-weight: 600;
+  }
